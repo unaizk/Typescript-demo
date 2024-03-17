@@ -5,7 +5,6 @@
 // Imagine you have a User model with several properties , but for user profile display , you only need a subset of these properties.
 
 interface User {
-    id : string
     name : string,
     email : string,
     age : number,
