@@ -18,7 +18,7 @@
             let value = firstElement(["unais", "Jinas"]);
             // value.toLowerCase() // This will not support because when we do like this Typescript is'nt able to infer the right type of the return type
 
-// Problem for this solution 
+// --------------------------------------------------------------------Problem for this solution--------------------------------------------------- 
 //1: Typescript isn't able to infer the right type of the return type,
 //2 : User can send different types of values in input without any type error
 
