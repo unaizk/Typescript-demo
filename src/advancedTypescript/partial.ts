@@ -16,6 +16,6 @@ interface Users {
 type updatedUsers = Pick<User, 'name' | 'email' | 'age'>
 type updatePropsOptional = Partial<updatedUsers> // this makes everything optional
 
-function updateUser(updatedProps : updatePropsOptional){
+function updateUsers(updatedProps : updatePropsOptional){
     // hit the database to update user
 }
