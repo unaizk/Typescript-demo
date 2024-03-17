@@ -27,3 +27,17 @@ const obj1 : Values = {
 }
 
 //obj1.name = "jinas" // now typescript is complaining it restricted 
+
+// we can do like this also
+
+type Value = {
+    name : string,
+    age : number
+};
+
+const obj2 : Readonly<Value> = {
+    name : 'unais',
+    age : 26
+}
+
+//obj2.name = 'jinas'   // this is also same as above it also restrict
